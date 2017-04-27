@@ -1,0 +1,26 @@
+body{
+	font-family: sans-serif;
+	max-width: 80vw;
+	margin: auto;
+}
+
+header, nav{
+	border-bottom: 1px solid;
+}
+
+nav, nav a{
+	padding: .5em;
+}
+
+footer{
+	border-top: 1px solid;
+}
+
+input{
+	display: block;
+	margin: .5em;
+}
+
+input[type=image]{
+	width: 3em;
+}
