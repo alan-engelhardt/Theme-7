@@ -5,8 +5,8 @@ include_once('inc/head.php');
 
 <h1>Please Sign Up</h1>
 <?php
-if(isset($_GET['exists'])){
-	echo "<h3>You are already registrered</h3>";
+if(isset($_GET['fname'])){
+	echo "<h3>".$_GET['fname']." ".$_GET['lname']." is already registrered.</h3>";
 }
 ?>
 <form action="inc/registration.php" method="post" enctype="multipart/form-data">
